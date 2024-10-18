@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX98357AGTE_V+
+D Tiny, Low-Cost, PCM Class D Amplifier with Class AB Performance
+K
+F https://pdfserv.maximintegrated.com/en/ds/MAX98357A-MAX98357B.pdf
+$ENDCMP
+#
+#End Doc Library
