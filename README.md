@@ -2,6 +2,6 @@
 
 ## Contents
 
-[`firmware`](firmware/) - Firmware (TODO)
-[`midi`](midi/) - Board design files
+- [`firmware`](firmware/) - Firmware (TODO)
+- [`midi`](midi/) - Board design files
 
