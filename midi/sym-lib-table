@@ -6,5 +6,6 @@
   (lib (name "SJ-43515TS-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/parts/JACK-3.5mm_SJ_43515TS_SMT_TR/SJ-43515TS-SMT-TR.kicad_sym")(options "")(descr "3.5mm Headphone Jack"))
   (lib (name "POT_PRS11R-415F-S103B1")(type "KiCad")(uri "${KIPRJMOD}/parts/POT_PRS11R-415F-S103B1/2024-10-18_00-51-44.kicad_sym")(options "")(descr "Potentiometer"))
   (lib (name "MAX98357AGTE_V+")(type "KiCad")(uri "${KIPRJMOD}/parts/MAX98357AGTE_V+/MAX98357AGTE_V+.kicad_sym")(options "")(descr "Amplifier"))
-  (lib (name "2024-10-18_01-47-02")(type "KiCad")(uri "${KIPRJMOD}/parts/ESP32_S3_WROOM_1_N16/2024-10-18_01-47-02.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32_S3_WROOM_1_N16")(type "KiCad")(uri "${KIPRJMOD}/parts/ESP32_S3_WROOM_1_N16/2024-10-18_01-47-02.kicad_sym")(options "")(descr "OUR ESP32 WROOM"))
+  (lib (name "LTC3872ETS8_TRPBF")(type "KiCad")(uri "${KIPRJMOD}/parts/LTC3872ETS8_TRPBF/2024-10-18_22-54-37.kicad_sym")(options "")(descr "Voltage Regulator"))
 )
