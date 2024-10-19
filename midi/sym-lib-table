@@ -8,4 +8,5 @@
   (lib (name "MAX98357AGTE_V+")(type "KiCad")(uri "${KIPRJMOD}/parts/MAX98357AGTE_V+/MAX98357AGTE_V+.kicad_sym")(options "")(descr "Amplifier"))
   (lib (name "ESP32_S3_WROOM_1_N16")(type "KiCad")(uri "${KIPRJMOD}/parts/ESP32_S3_WROOM_1_N16/2024-10-18_01-47-02.kicad_sym")(options "")(descr "OUR ESP32 WROOM"))
   (lib (name "LTC3872ETS8_TRPBF")(type "KiCad")(uri "${KIPRJMOD}/parts/LTC3872ETS8_TRPBF/2024-10-18_22-54-37.kicad_sym")(options "")(descr "Voltage Regulator"))
+  (lib (name "LTC1624CS8_TRPBF")(type "KiCad")(uri "${KIPRJMOD}/parts/LTC1624CS8_TRPBF/LTC1624CS8_TRPBF.kicad_sym")(options "")(descr ""))
 )
