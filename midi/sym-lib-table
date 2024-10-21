@@ -9,4 +9,5 @@
   (lib (name "ESP32_S3_WROOM_1_N16")(type "KiCad")(uri "${KIPRJMOD}/parts/ESP32_S3_WROOM_1_N16/2024-10-18_01-47-02.kicad_sym")(options "")(descr "OUR ESP32 WROOM"))
   (lib (name "LTC3872ETS8_TRPBF")(type "KiCad")(uri "${KIPRJMOD}/parts/LTC3872ETS8_TRPBF/2024-10-18_22-54-37.kicad_sym")(options "")(descr "Voltage Regulator"))
   (lib (name "LTC1624CS8_TRPBF")(type "KiCad")(uri "${KIPRJMOD}/parts/LTC1624CS8_TRPBF/LTC1624CS8_TRPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "MUX_CD74HC154M96")(type "KiCad")(uri "${KIPRJMOD}/parts/MUX_CD74HC154M96/2024-10-20_23-15-53.kicad_sym")(options "")(descr ""))
 )
