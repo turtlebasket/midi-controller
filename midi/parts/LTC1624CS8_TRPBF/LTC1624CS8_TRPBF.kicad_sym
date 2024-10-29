@@ -1,98 +1,266 @@
-
-(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "LTC1624CS8_TRPBF" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at -4.98502 13.0984 0.0)
-      (effects (font (size 1.27 1.27)) (justify bottom left))
-    )
-    (property "Value" "LTC1624CS8_TRPBF" (id 1) (at -5.99801 -22.0351 0.0)
-      (effects (font (size 1.27 1.27)) (justify bottom left))
-    )
-    (property "Footprint" "LTC1624CS8_TRPBF:SOIC127P600X175-8N" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "MPN" "LTC1624CS8#PBF" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "OC_FARNELL" "1273889" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "OC_NEWARK" "56M2686" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "SUPPLIER" "Linear Technology" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "PACKAGE" "SOIC-8" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (symbol "LTC1624CS8_TRPBF_0_0"
-      (rectangle (start -12.7 -17.78) (end 12.7 10.16)
-        (stroke (width 0.4064)) (fill (type background))
-      )
-      (pin power_in line (at -17.78 5.08 0) (length 5.08)
-        (name "VIN"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "8"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin input line (at -17.78 0.0 0) (length 5.08)
-        (name "VFB"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "3"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin power_in line (at -17.78 -2.54 0) (length 5.08)
-        (name "BOOST"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "7"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin input line (at -17.78 -5.08 0) (length 5.08)
-        (name "SENSE-"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "1"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin input line (at -17.78 -7.62 0) (length 5.08)
-        (name "ITH/RUN"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "2"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin passive line (at -17.78 -12.7 0) (length 5.08)
-        (name "GND"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "4"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin output line (at 17.78 5.08 180.0) (length 5.08)
-        (name "TG"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "6"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-      (pin passive line (at 17.78 2.54 180.0) (length 5.08)
-        (name "SW"
-          (effects (font (size 1.016 1.016)))
-        )
-        (number "5"
-          (effects (font (size 1.016 1.016)))
-        )
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "LTC1624CS8_TRPBF"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -3.048 12.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LTC1624CS8_TRPBF"
+			(at -5.998 -22.0351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LTC1624CS8_TRPBF:SOIC127P600X175-8N"
+			(at 1.778 15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTC1624CS8#PBF"
+			(at 9.652 12.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1273889"
+			(at 20.574 -18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "56M2686"
+			(at 20.32 -23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "Linear Technology"
+			(at 0.762 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "SOIC-8"
+			(at 20.32 -20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "LTC1624CS8_TRPBF_0_0"
+			(rectangle
+				(start -12.7 10.16)
+				(end 12.7 -17.78)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -17.78 -5.08 0)
+				(length 5.08)
+				(name "SENSE-"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -7.62 0)
+				(length 5.08)
+				(name "ITH/RUN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 0 0)
+				(length 5.08)
+				(name "VFB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.78 -12.7 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(name "SW"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 5.08 180)
+				(length 5.08)
+				(name "TG"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 -2.54 0)
+				(length 5.08)
+				(name "BOOST"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 5.08 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
 )
