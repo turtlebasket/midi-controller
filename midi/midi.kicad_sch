@@ -390,27 +390,26 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic_Shielded:Conn_01x02_Shielded"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0.254 2.286 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Shielded"
-				(at 1.016 -4.826 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -431,7 +430,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic shielded connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -449,7 +448,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1SH*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -458,43 +457,32 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Shielded_1_1"
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -3.81)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 -2.413)
-					(end 0.254 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 0.127)
-					(end 0.254 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 1.016)
-					(end 1.016 -3.556)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -505,7 +493,7 @@
 				)
 				(pin passive line
 					(at -5.08 0 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_1"
 						(effects
 							(font
@@ -523,7 +511,7 @@
 				)
 				(pin passive line
 					(at -5.08 -2.54 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_2"
 						(effects
 							(font
@@ -532,24 +520,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 3.81)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6058,10 +6028,6 @@
 		(uuid "03cc45c9-e272-4d9b-9e54-d553be39cef4")
 	)
 	(no_connect
-		(at 107.95 172.72)
-		(uuid "096fad9a-a32d-43e8-85a2-08728fc4927b")
-	)
-	(no_connect
 		(at 256.54 64.77)
 		(uuid "0d9e3885-444c-4a8e-850b-70cb7a3e654b")
 	)
@@ -6795,16 +6761,6 @@
 			(type default)
 		)
 		(uuid "1fd4ccc7-df12-4f2d-9a1f-52f975776666")
-	)
-	(wire
-		(pts
-			(xy 107.95 172.72) (xy 107.95 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20e2a3e5-55cf-4a08-82e3-25a3ea8fe2ac")
 	)
 	(wire
 		(pts
@@ -10105,7 +10061,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 250.698 128.27 90)
 			(effects
 				(font
@@ -10305,7 +10261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 342.9 26.67 0)
 			(effects
 				(font
@@ -10539,7 +10495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 342.9 52.07 0)
 			(effects
 				(font
@@ -10838,7 +10794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 368.3 39.37 0)
 			(effects
 				(font
@@ -11006,7 +10962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "POT_PRS11R-415F-S103B1:POT_PRS11R-4-S_BRN"
 			(at 394.97 97.79 0)
 			(effects
 				(font
@@ -11261,7 +11217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 369.57 76.2 0)
 			(effects
 				(font
@@ -11427,7 +11383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 317.5 76.2 0)
 			(effects
 				(font
@@ -11861,7 +11817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SRR6038_100Y:IND_BOURNS_SRR6038"
 			(at 261.62 163.83 0)
 			(effects
 				(font
@@ -12400,7 +12356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 342.9 95.25 0)
 			(effects
 				(font
@@ -12566,7 +12522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 368.3 26.67 0)
 			(effects
 				(font
@@ -13107,79 +13063,6 @@
 			(project "midi"
 				(path "/062cddda-4621-48ae-9feb-d7c8105a5a13"
 					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_Shielded:Conn_01x02_Shielded")
-		(at 107.95 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ab122bb-8788-4fe9-97e3-1fb697ed5f1f")
-		(property "Reference" "J1"
-			(at 110.49 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Shielded"
-			(at 110.49 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 107.95 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic shielded connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 107.95 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd953a9b-94b1-41e7-8ab9-712424121c4c")
-		)
-		(pin "1"
-			(uuid "9adafc06-b878-4bd6-8ec8-af8e38580049")
-		)
-		(pin "SH"
-			(uuid "0a8f4a3d-b9fc-405b-b1ed-2dd549936f0a")
-		)
-		(instances
-			(project ""
-				(path "/062cddda-4621-48ae-9feb-d7c8105a5a13"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -13749,7 +13632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 393.7 39.37 0)
 			(effects
 				(font
@@ -14516,7 +14399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 317.5 39.37 0)
 			(effects
 				(font
@@ -14682,7 +14565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NHD-C12832A1Z-FSW-FBW-3V3:LCD_NHD-C12832A1Z-FSW-FBW-3V3"
+		(property "Footprint" "DISPLAY-NHD_C12832A1Z_FSW_FBW_3V3:LCD_NHD-C12832A1Z-FSW-FBW-3V3"
 			(at 182.88 59.69 0)
 			(effects
 				(font
@@ -14842,7 +14725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 317.5 95.25 0)
 			(effects
 				(font
@@ -15281,7 +15164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 394.97 76.2 0)
 			(effects
 				(font
@@ -16011,6 +15894,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 107.95 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9629139-efbb-4ba2-bd22-e387cad1156f")
+		(property "Reference" "J1"
+			(at 110.49 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 110.49 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 107.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 107.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50b139be-4c07-4f8b-830b-775e05911b17")
+		)
+		(pin "1"
+			(uuid "566aecbf-7ab6-4f4a-83c9-942b347d3ed0")
+		)
+		(instances
+			(project ""
+				(path "/062cddda-4621-48ae-9feb-d7c8105a5a13"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 342.9 57.15 90)
 		(unit 1)
@@ -16239,7 +16192,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SJ-43515TS-SMT-TR:CUI_SJ-43515TS-SMT-TR"
+		(property "Footprint" "JACK-3.5mm_SJ_43515TS_SMT_TR:CUI_SJ-43515TS-SMT-TR"
 			(at 113.538 116.332 0)
 			(effects
 				(font
@@ -16339,10 +16292,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c1fb5764-5eee-4913-bad3-1dc2edd3217e")
 		(property "Reference" "M1"
-			(at 252.73 135.8899 0)
+			(at 250.952 137.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16350,8 +16302,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Si4412DY"
-			(at 252.73 138.4299 0)
+		(property "Value" "DMG4466SSS-13"
+			(at 250.952 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16359,7 +16311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DMG4466SSS_13:SO-8_DIO"
 			(at 251.46 134.62 0)
 			(effects
 				(font
@@ -16524,7 +16476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 317.5 26.67 0)
 			(effects
 				(font
@@ -16756,7 +16708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 317.5 52.07 0)
 			(effects
 				(font
@@ -17056,7 +17008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 342.9 76.2 0)
 			(effects
 				(font
@@ -17692,7 +17644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "POT_PRS11R-415F-S103B1:POT_PRS11R-4-S_BRN"
 			(at 370.84 97.79 0)
 			(effects
 				(font
@@ -17829,7 +17781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 342.9 39.37 0)
 			(effects
 				(font
@@ -17995,7 +17947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:PushButton_Round_D12mm_THT_KS-01Q-01"
+		(property "Footprint" "BTN_TL3301AF160QJ:TL3301AF160QJ_EWI"
 			(at 393.7 26.67 0)
 			(effects
 				(font
