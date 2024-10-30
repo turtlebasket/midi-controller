@@ -5,6 +5,18 @@
 - [`firmware`](firmware/) - Firmware (TODO)
 - [`midi`](midi/) - Board design files
 
-## Development
+## Contributing
 
+### Board
+
+#### KiCad Libraries
+
+Must install:
+
+- [Digikey Library](https://github.com/Digi-Key/digikey-kicad-library)
+- [Espressif Library (v3.0.1)](https://github.com/espressif/kicad-libraries/releases/tag/3.0.1)
+
+### Firmware
+
+TODO
 
