@@ -15008,7 +15008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DW24"
+		(property "Footprint" "MUX_CD74HC154M96:DW24"
 			(at 271.78 62.23 0)
 			(effects
 				(font
@@ -15703,7 +15703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CONN6_USB4125_GCT"
+		(property "Footprint" "USB4125_GF_A:CONN6_USB4125_GCT"
 			(at 352.806 144.526 0)
 			(effects
 				(font
