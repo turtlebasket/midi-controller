@@ -6,7 +6,4 @@
   (lib (name "DISPLAY-NHD_C12832A1Z_FSW_FBW_3V3")(type "KiCad")(uri "${KIPRJMOD}/parts/DISPLAY-NHD_C12832A1Z_FSW_FBW_3V3")(options "")(descr ""))
   (lib (name "BTN_TL3301AF160QJ")(type "KiCad")(uri "${KIPRJMOD}/parts/BTN_TL3301AF160QJ/footprints.pretty")(options "")(descr ""))
   (lib (name "MUX_CD74HC154M96")(type "KiCad")(uri "${KIPRJMOD}/parts/MUX_CD74HC154M96/footprints.pretty")(options "")(descr ""))
-  (lib (name "DMG4466SSS_13")(type "KiCad")(uri "${KIPRJMOD}/parts/DMG4466SSS_13/footprints.pretty")(options "")(descr ""))
-  (lib (name "LTC1624CS8_TRPBF")(type "KiCad")(uri "${KIPRJMOD}/parts/LTC1624CS8_TRPBF")(options "")(descr ""))
-  (lib (name "SRR6038_100Y")(type "KiCad")(uri "${KIPRJMOD}/parts/SRR6038_100Y/footprints.pretty")(options "")(descr ""))
 )
