@@ -10131,25 +10131,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "413f58f8-5f77-435e-9c08-1363921e064c")
 		(property "Reference" "R4"
-			(at 167.64 226.06 90)
+			(at 167.64 228.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 167.64 228.6 90)
+		(property "Value" "5.1k"
+			(at 167.64 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 167.64 234.188 90)
 			(effects
 				(font
@@ -11290,7 +11289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 93.98 241.3 0)
 			(effects
 				(font
@@ -12194,7 +12193,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 64.77 241.3 0)
 			(effects
 				(font
@@ -14499,14 +14498,14 @@
 		(dnp no)
 		(uuid "c96b7616-f04c-4eb3-839a-ea8a91618ba7")
 		(property "Reference" "R5"
-			(at 167.64 239.522 90)
+			(at 167.386 239.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.1k"
 			(at 167.64 237.236 90)
 			(effects
 				(font
@@ -14514,7 +14513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 167.64 236.728 90)
 			(effects
 				(font
