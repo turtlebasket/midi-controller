@@ -5,7 +5,6 @@
   (lib (name "SJ-43515TS-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/parts/JACK-3.5mm_SJ_43515TS_SMT_TR/SJ-43515TS-SMT-TR.kicad_sym")(options "")(descr "3.5mm Headphone Jack"))
   (lib (name "POT_PRS11R-415F-S103B1")(type "KiCad")(uri "${KIPRJMOD}/parts/POT_PRS11R-415F-S103B1/2024-10-18_00-51-44.kicad_sym")(options "")(descr "Potentiometer"))
   (lib (name "MAX98357AGTE_V+")(type "KiCad")(uri "${KIPRJMOD}/parts/MAX98357AGTE_V+/MAX98357AGTE_V+.kicad_sym")(options "")(descr "Amplifier"))
-  (lib (name "LTC1624CS8_TRPBF")(type "KiCad")(uri "${KIPRJMOD}/parts/LTC1624CS8_TRPBF/LTC1624CS8_TRPBF.kicad_sym")(options "")(descr ""))
   (lib (name "MUX_CD74HC154M96")(type "KiCad")(uri "${KIPRJMOD}/parts/MUX_CD74HC154M96/2024-10-20_23-15-53.kicad_sym")(options "")(descr ""))
-  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/parts/ESP32-kicad-libraries/symbols/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "SC189ZSKTRT")(type "KiCad")(uri "${KIPRJMOD}/parts/SC189ZSKTRT/2024-10-31_22-29-40.kicad_sym")(options "")(descr ""))
 )
