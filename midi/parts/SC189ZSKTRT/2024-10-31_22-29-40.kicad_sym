@@ -99,7 +99,20 @@
 					)
 				)
 			)
-			(pin power_out line
+		)
+		(symbol "SC189ZSKTRT_1_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
 				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
@@ -117,37 +130,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 12.7 -1.27 180)
-				(length 5.08)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SC189ZSKTRT_1_1"
-			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin input line
 				(at -12.7 -1.27 0)
 				(length 5.08)
@@ -159,6 +141,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 -1.27 180)
+				(length 5.08)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)

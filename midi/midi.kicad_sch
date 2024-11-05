@@ -3688,7 +3688,20 @@
 						)
 					)
 				)
-				(pin power_out line
+			)
+			(symbol "SC189ZSKTRT_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "GND"
@@ -3706,37 +3719,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 -1.27 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SC189ZSKTRT_1_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(pin input line
 					(at -12.7 -1.27 0)
 					(length 5.08)
@@ -3748,6 +3730,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -1.27 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7729,6 +7729,17 @@
 		)
 		(uuid "0a927f1b-dacf-4896-ae7a-1e9c9779d6d7")
 	)
+	(label "S1"
+		(at 265.43 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11a0ca64-e9a9-480f-ae77-a203740807db")
+	)
 	(label "BTND3"
 		(at 231.14 76.2 0)
 		(fields_autoplaced yes)
@@ -7885,6 +7896,7 @@
 	)
 	(label "LCD.A0"
 		(at 82.55 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8365,17 +8377,6 @@
 			(justify right bottom)
 		)
 		(uuid "c08fa82b-cfd5-4c27-abe5-de43539c4a3f")
-	)
-	(label "S1"
-		(at 265.43 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7a4d5aa-8b5b-44d6-a13b-b91561d5ea5c")
 	)
 	(label "BTND0"
 		(at 260.35 170.18 180)
@@ -14705,7 +14706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SC189ZSKTRT:SOT23-5-SC189_SEM"
+		(property "Footprint" "SOT23-5-SC189_SEM"
 			(at 69.85 236.22 0)
 			(effects
 				(font
