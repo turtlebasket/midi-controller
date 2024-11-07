@@ -8,4 +8,5 @@
   (lib (name "MUX_CD74HC154M96")(type "KiCad")(uri "${KIPRJMOD}/parts/MUX_CD74HC154M96/footprints.pretty")(options "")(descr ""))
   (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/parts/USB4105-GF-A")(options "")(descr ""))
   (lib (name "SC189ZSKTRT")(type "KiCad")(uri "${KIPRJMOD}/parts/SC189ZSKTRT/footprints.pretty")(options "")(descr ""))
+  (lib (name "digikey-footprints")(type "KiCad")(uri "/Users/anjopagdanganan/Documents/KiCad/8.0/footprints/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
 )
