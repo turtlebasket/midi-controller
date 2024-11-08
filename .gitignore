@@ -1,3 +1,7 @@
+*.zip
+gerber/
+
+
 # General
 .DS_Store
 .AppleDouble
