@@ -1,9 +1,9 @@
-# Pocket MIDI Device
+# Pocket Operator
 
 ## Contents
 
 - [`firmware`](firmware/) - Firmware (TODO)
-- [`midi`](midi/) - Board design files
+- [`device`](device/) - Board design files
 
 ## Contributing
 
