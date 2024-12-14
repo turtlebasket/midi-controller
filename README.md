@@ -7,11 +7,15 @@
 
 ## Gallery
 
-### Board Layout
+| Completed Board (bird's eye) | Completed Board (top) |
+| --------------- | -------- |
+| ![](assets/finished-board.jpg) | ![](assets/finished-board-top.jpg) | 
 
-![](assets/layout-top.png)
+| Layout (Top) | Layout (Bottom) | Layout (Full) |
+| ------------ | --------------- | ------------- |
+| ![](assets/layout-top.png) | ![](assets/layout-bottom.png) | ![](assets/layout-full.png) |
 
-### Board Schematic
-
+| Schematic |
+| --------- |
 ![](assets/schematic.svg)
 
