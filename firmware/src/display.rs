@@ -1,10 +1,11 @@
 use esp_idf_hal::io::Error;
 use esp_idf_hal::peripherals::Peripherals;
 use esp_idf_hal::spi::*;
+use esp_idf_hal::sys::EspError;
 
 pub struct Display {}
 
-pub fn init_display() -> Result<&SpiDriver<'static, SPI2>, dyn Error> {
+pub fn init_display() -> Result<SpiDriver<'static>, EspError> {
     let peripherals = Peripherals::take()?;
     let spi = peripherals.spi2;
 
@@ -23,5 +24,6 @@ pub fn init_display() -> Result<&SpiDriver<'static, SPI2>, dyn Error> {
         Some(serial_in),
         &SpiDriverConfig::new(),
     )?;
-    Ok(&driver)
+
+    Ok(driver)
 }

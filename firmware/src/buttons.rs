@@ -1,6 +1,6 @@
-use esp_idf_hal::{gpio::*, io::Error, peripherals::Peripherals};
+use esp_idf_hal::{gpio::*, io::Error, peripherals::Peripherals, sys::EspError};
 
-pub fn init_buttons() -> Result<[PinDriver<AnyInputPin>; 4], dyn io::Error> {
+pub fn init_buttons() -> Result<[PinDriver<'static, AnyInputPin, Pull>; 4], EspError> {
     let peripherals = match Peripherals::take() {
         Ok(p) => p,
         Err(e) => return Err(e),
